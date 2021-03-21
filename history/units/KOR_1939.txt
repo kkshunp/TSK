@@ -1,4 +1,25 @@
 ﻿division_template = {
+	name = "3기갑여단"
+	priority = 2
+	
+	regiments = {
+		modern_mbt = { x = 0 y = 0 }
+		modern_mbt = { x = 0 y = 1 }
+		heavy_mechanized = { x = 1 y = 0 }
+		heavy_mechanized = { x = 1 y = 1 }
+		modern_sp_art_brigade = { x = 2 y = 0 }
+		modern_armed_rec = { x = 3 y = 0 }
+
+	}
+	support = {
+	logistics_company = { x = 0 y = 0 }
+	signal_company = { x = 0 y = 1 }
+	military_police = { x = 0 y = 2 }
+	field_hospital = { x = 0 y = 3 }
+	manpad = { x = 0 y = 4 }
+	}
+}
+division_template = {
 	name = "향토방위사단"
 	priority = 0
 	
@@ -406,8 +427,10 @@ units = {
 	division= {
 		name = "제3기갑여단 '번개'"
 		location = 7125
-		division_template = "기갑여단"
+		division_template = "3기갑여단"
 		start_experience_factor = 0.4
+		force_equipment_variants = { m_2000_mbt = { owner = "RU1" } }
+		force_equipment_variants = { m_1990_IFV_equipment = { owner = "RU1" } }
 	}
 	division= {
 		name = "제5기갑여단 '철풍'"

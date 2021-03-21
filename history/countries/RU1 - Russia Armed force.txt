@@ -78,6 +78,7 @@ set_technology = {
 	m_1970_IFV = 1
 	m_1980_IFV = 1
 	m_1990_IFV = 1
+	m_2000_IFV = 1
 	
 	modern_war_artillery = 1
 	modern_war_artillery_2 = 1

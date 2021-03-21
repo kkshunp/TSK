@@ -138,6 +138,8 @@
  PRK_m_2000_mbt:0 "선군-915"
  PRK_m_2010_mbt:0 "T-90A"
  
+ RU1_m_2000_mbt:0 "T-80U"
+ 
  m_1970_APC_equipment:0 "1970년대 APC"
  m_1980_APC_equipment:0 "1980년대 APC"
  m_1990_APC_equipment:0 "1990년대 APC"
@@ -173,7 +175,6 @@
  m_2010_IFV_equipment:0 "2010년대 보병전투차"
  KOR_m_1980_IFV_equipment:0 "K225 KAFV"
  KOR_m_1990_IFV_equipment:0 "K240 KAFV"
- KOR_m_2000_IFV_equipment:0 "BMP-3"
  KOR_m_2010_IFV_equipment:0 "K21 IFV"
  
  JDF_m_1990_IFV_equipment:0 "89식 보병전투차"
@@ -188,6 +189,8 @@
  PRK_m_1990_IFV_equipment:0 "BTR-80A"
  PRK_m_2000_IFV_equipment:0 "BTR-82"
  PRK_m_2010_IFV_equipment:0 "BMP-2M"
+ 
+ RU1_m_1990_IFV_equipment:0 "BMP-3"
  
  JDF_modern_armored_car_equipment:0 "87식 정찰경계차"
  USF_modern_armored_car_equipment:0 "LAV-25 Scout"
