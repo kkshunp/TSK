@@ -270,12 +270,6 @@ units = {
 		start_experience_factor = 0.4
 	}
 	division= {
-		name = "제8보병사단 '오뚜기'"
-		location = 7125
-		division_template = "상비사단"
-		start_experience_factor = 0.4
-	}
-	division= {
 		name = "제9보병사단 '백마'"
 		location = 7125
 		division_template = "상비사단"
@@ -379,6 +373,12 @@ units = {
 	}
 	#####################기계화##########
 	
+	division= {
+		name = "제8기계화보병사단 '오뚜기'"
+		location = 7125
+		division_template = "기계화보병사단"
+		start_experience_factor = 0.5
+	}
 	division= {
 		name = "제20기계화보병사단 '결전'"
 		location = 7125
